@@ -2862,8 +2862,14 @@ textarea {
 }
 /* #Clients Logo
 ================================================== */
+.our-partner {
+    margin: 0 auto;
+    width: 60%;
+}
 .our-partner .item {
-  text-align: center;
+	float:left;
+		width:50%;
+		text-align:center;
 }
 .our-partner .owl-controls {
   margin-top: 40px;
@@ -4642,6 +4648,11 @@ form .form-row label.checkbox {
     width: 33.33333333%;
   }
 }
+@media only screen and (max-width: 960px) {
+			.our-partner {
+    width: 100%;
+}
+}
 @media only screen and (max-width: 767px) {
   .feature-box,
   .about-box {
@@ -4689,7 +4700,9 @@ form .form-row label.checkbox {
     margin-bottom: 15px;
     margin-top: 30px;
   }
+
 }
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .item.margin_15 {
     margin: 15px 0px 0px;
