@@ -35,6 +35,7 @@ body { font-family: "Raleway", Arial, Helvetica, sans-serif; font-size: 13px; li
 #wrapper { overflow: hidden; }
 a, a:focus, a:active { outline: none; }
 h1, h2, h3, h4, h5, h6 { text-transform: uppercase; font-weight: bold; color: #333333; font-family: "Raleway", Arial, Helvetica, sans-serif; margin-top: 0px; }
+.post-title .icon-post-title {margin: 0px 2px;float: left;color: #25B9F9; }
 /*------------------------------ 
 HEADER
 ------------------------------ */
