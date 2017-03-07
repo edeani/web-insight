@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; font-weight: bold; color: #3
 .post-title .icon-post-title {margin: 0px 2px;float: left;color: #25B9F9; }
 h5 > em {    color: #888;    font-size: 16px;    margin: 0 5px 0 0;    float: left;    border: 1px solid #bbb;    padding: 4px 5px;    border-radius: 5px;}
 h5 > dd {    float: left;    font-size: 18px;    line-height: 19px; margin: 0 3px;}
+h5 > .text-inline{float: left;    line-height: 19px; margin: 2px 0px;}
 h5 {line-height: 23px;  }
 /*------------------------------
 HEADER
