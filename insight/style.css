@@ -274,6 +274,8 @@ section, #content { padding: 60px 0 60px 0; background: #fff; }
 .list-style-1 { list-style: none; margin: 0px; padding: 0px; }
 .list-style-1 li { position: relative; padding-left: 20px; color: #666666; margin-bottom: 10px; }
 .list-style-1 li:before { position: absolute; top: 0px; left: 0px; font-family: 'FontAwesome'; display: inline-block; font-size: 13px; content: "\f058"; color: #aaaaaa; }
+.list-style-1 .list-style-2 li { margin: 0px; padding: 0px; list-style-type: initial; }
+.list-style-1 .list-style-2 li::before {content: ""}
 .list-style-1 li:last-child { margin-bottom: 0px; }
 /* #Social Group hover color
 ================================================== */
