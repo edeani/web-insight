@@ -25,9 +25,7 @@
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/switcher/demo.css" type="text/css">
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/switcher/colors/blue.css" type="text/css" id="colors">
 <?php wp_head(); ?>
-<!-- Accordion -->
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/smk-accordion.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom-element.js"></script>
+
 </head>
 
 <body>

@@ -67,7 +67,7 @@
 							 <div class="container">
 									 <div class="row">
 											 <div class="col-md-12 text-center">
-													 Copyright &copy; 2017 Insight. Todos los derechos reservados.
+													 Copyright &copy; <?php echo date("Y"); ?> Insight. Todos los derechos reservados.
 											 </div>
 									 </div>
 							 </div>
@@ -89,6 +89,10 @@
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.fitvids.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/wow.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.magnific-popup.min.js"></script>
+
+<!-- Accordion -->
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/smk-accordion.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom-element.js"></script>
 
 <!-- Waypoints-->
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.waypoints.min.js"></script>

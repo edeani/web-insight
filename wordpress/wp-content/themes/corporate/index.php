@@ -118,7 +118,7 @@
           <div class="folio-buttons"> <!--a href="images/projects/medium-2.jpg" title="Business Growth Solutions" class="folio"><i class="fa fa-search"></i></a> <a href="#"><i class="fa fa-link"></i></a--> </div>
          </div>
         </div>
-        <div class="item"> <img src="<?php bloginfo('template_url'); ?>/images/projects/small-4.jpg" alt="" class="img-responsive">
+        <div class="item"> <img src="<?php bloginfo('template_url'); ?>/images/projects/img-libro-adjust.jpg" alt="" class="img-responsive">
          <div class="project-details">
           <p class="folio-title"><a href="#">Coautor&iacute;a y participaci&oacute;n en el libro &quot;La emergencia de los enfoques de la complejidad en Am&eacute;rica Latina: implicancias pol&iacute;ticas, epistemol&oacute;gicas y metodol&oacute;gicas para las ciencias del siglo XXI&quot;.</a></p>
           <!--p class="folio-cate"><i class="fa fa-tag"></i><a href="#">Finance</a>, <a href="#">Marketing</a></p-->
