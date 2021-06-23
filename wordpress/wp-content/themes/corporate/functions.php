@@ -37,3 +37,45 @@ if ( function_exists('register_sidebar_widget') )
     register_sidebar_widget(__('Search'), 'widget_webdemar_search');
 
 ?>
+
+<?php 
+	/**
+	 * Additional functionality
+	 */
+
+	 /***********Contact Form************/
+	 function   send_email_main_account(){
+		if(empty($_POST["email"])){
+
+		}else if(empty($_POST["nombres"])){
+
+		}else if(empty($_POST["mensaje"])){
+
+		}else{
+			$headers = array('Content-Type: text/html; charset=UTF-8');
+			$wpmailStatus= wp_mail( SMTP_FROM  , 'Hola '.$_POST["nombres"].' te ha contactado', 'Datos <br> Nombres:'.$_POST["nombres"].'<br>'.'Email:'.$_POST["email"].'<br> Mensaje: <br>'.$_POST["mensaje"] );
+			
+			global $statusemail;
+			$statusemail = "";
+			if($wpmailStatus){
+				$statusemail="S";
+			}else{
+				$statusemail="N";
+			}
+
+
+			wp_redirect( home_url('/contactanos/?statusemail='.$statusemail) ); 
+			exit;
+			
+		}
+		
+	 }
+
+	 /**
+	  * Interceptions external requests
+	  */
+	  
+	add_action('admin_post_send_email_main','send_email_main_account');
+	add_action('admin_post_nopriv_send_email_main','send_email_main_account');
+?>
+

@@ -57,6 +57,17 @@ define( 'SECURE_AUTH_SALT', '&8eF[Cn C=$lw^@g/Qmu]nMamo9}3 u0J5&MQ~MI)V+}H&k7JmR
 define( 'LOGGED_IN_SALT',   '7}1ZdFESK4ZBJsL2za2uQLH/PF&?%JFOg,JiUZmIuL[o%jWR /uKvM3mOQf{IP3[' );
 define( 'NONCE_SALT',       '!lF0QlciDBax-oL4u>pP0,8j<HfIb A[QY:xHNYMG?;:ng!xZ4g^J6K7zM>a3d9C' );
 
+/** Email for submit contact form **/
+define( 'SMTP_HOST', 'c2190046.ferozo.com' );  // A2 Hosting server name. For example, "a2ss10.a2hosting.com"
+define( 'SMTP_AUTH', true );
+define( 'SMTP_PORT', '465' );
+define( 'SMTP_SECURE', 'ssl' );
+define( 'SMTP_USERNAME', 'no-reply@grupoinsight.org' );  // Username for SMTP authentication
+define( 'SMTP_PASSWORD', '72f0e1qMyo' );          // Password for SMTP authentication
+define( 'SMTP_FROM',     'no-reply@grupoinsight.org' );  // SMTP From address
+define( 'SMTP_FROMNAME', 'Grupo Insight' );         // SMTP From name
+/** Email for submit contact form **/
+
 /**#@-*/
 
 /**
