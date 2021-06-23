@@ -53,7 +53,7 @@ if ( function_exists('register_sidebar_widget') )
 
 		}else{
 			$headers = array('Content-Type: text/html; charset=UTF-8');
-			$wpmailStatus= wp_mail( SMTP_FROM  , 'Hola '.$_POST["nombres"].' te ha contactado', 'Datos <br> Nombres:'.$_POST["nombres"].'<br>'.'Email:'.$_POST["email"].'<br> Mensaje: <br>'.$_POST["mensaje"] );
+			$wpmailStatus= wp_mail( SMTP_FROM  , 'Hola '.$_POST["nombres"].' te ha contactado', 'Datos <br> Nombres:'.$_POST["nombres"].'<br>'.'Email:'.$_POST["email"].'<br> Mensaje: <br>'.$_POST["mensaje"] ,$headers);
 			
 			global $statusemail;
 			$statusemail = "";
