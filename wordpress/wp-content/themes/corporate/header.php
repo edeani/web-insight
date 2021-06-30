@@ -69,16 +69,17 @@
 						 <ul class="clearfix">
 								 <li class="active"><a href="/">Inicio</a> </li>
 								 <li><a href="/about">Sobre nosotros</a> </li>
-								 <li><a href="libros-articulos.html">Logros</a>
+								 <li><a href="/libros-articulos.html">Logros</a>
 									 <ul>
-										 <li><a href="libros-articulos.html">Libros y Art&iacute;culos</a></li>
+									 	 <li><a href="/libros">Libros</a></li>
+										 <li><a href="/articulos">Art&iacute;culos</a></li>
 										 <li><a href="/dispositivos-y-software">Dispositivos y Software</a></li>
 										 <li><a href="/trabajos-dirigidos">Trabajos dirigidos</a></li>
 										 <li><a href="/reconocimientos">Reconocimientos</a></li>
 									 </ul>
 								 </li>
 								 <li><a href="/trayectoria">Trayectoria</a> </li>
-								 <li><a href="contact1.html">Contacto</a> </li>
+								 <li><a href="/contactanos">Contacto</a> </li>
 						 </ul>
 				 </nav>
 			 <!-- desktop menu close -->
